@@ -19,11 +19,11 @@ Many of the examples of `httpc_get_file_dns` are either limited in functionality
 Assuming you have done a git clone of the repo, and assuming a linux command line environment.
 Update example.c to have your correct wifi network name and password.
 ```console
-foo@bar:~/example$ mkdir build
-foo@bar:~/example$ cd build
-foo@bar:~/example/build$ cmake ..
+foo@bar:~/pico-http$ mkdir build
+foo@bar:~/pico-http$ cd build
+foo@bar:~/pico-http/build$ cmake ..
 <ASSORTED OUTPUT OF CMAKE>
-foo@bar:~/example/build$ make
+foo@bar:~/pico-http/build$ make
 <ASSORTED OUTPUT OF MAKE>
 ```
 This will give you a file of example.uf2 which you can copy to a Pi Pico 2 W.
