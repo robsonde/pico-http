@@ -1,0 +1,9 @@
+
+Room for improvments:
+
+1. Wifi connection could be changed to try diffrent auth standards before failing.
+
+2. Code as written ignores headers.
+
+
+
